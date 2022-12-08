@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Homework: registration</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .wrapper{
+            opacity: 0.6;
+            transition: 0.5s ease-in-out;
+            transform: scale(0.8);
+        }
+        .wrapper:hover{
+            opacity: 1;
+            transform: scale(1);
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        footer{
+            width: 100%;
+            background-color: rgb(28, 28, 28);
+            color: white;
+            display: flex;
+            justify-content: center;
+            font-weight: 300;
+            font-size: smaller;
+        }
+        footer > p{
+            padding: 20px;
+        }
+    </style>
+    <div class="wrapper">
+        <section class="container">
+            <h1>Форма Регистрации</h1>
+            <form action="#">
+                <fieldset>
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Фамилия">
+                    <input style="display: block; margin-top:10px" type="tel" placeholder="Введите телефонный номер" size="20" minlength="9" maxlength="14">
+                </fieldset>
+                <fieldset>
+                    <p style="margin-bottom:5px;">Дата рождения</p>
+                    <input class="date" type="date" id="data">
+                </fieldset>
+                <fieldset>
+                    <p style="margin-bottom:5px ;">Пол</p>
+                    <label for="male">Мужской</label>
+                    <input type="radio" name="sex" id="male">
+                    <label for="female" style="margin-left: 15px;">Женский</label>
+                    <input type="radio" name="sex" id="female">
+                </fieldset>
+                <fieldset>
+                    <input type="text" placeholder="Имя пользователя">
+                    <input style="display: block;margin-top: 10px;" type="password" placeholder="Введите пароль">
+                    <input style="display: block; margin-top: 10px;" type="password" placeholder="Повторите введенный пароль">
+                </fieldset>
+                <fieldset>
+                    <label for="apply">Принимаю условия соглашения</label>
+                    <input type="checkbox" id="apply">
+                    <div class="anchor">
+                        <a href="login.html" id="registration__button">Регистрация</a>
+                    </div>
+                </fieldset>
+            </form>
+            
+        </section>
+
+    </div>
+    <footer>
+        <p>Designed and Developed by Darganiius</p>
+    </footer>
+</body>
+</html>

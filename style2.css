@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+div.wrapper{
+    width: 80%;
+}
+body{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+ul.header__list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+header a{
+    color: white;
+}
+header{
+    background-color: black;
+}
+.header__list{
+    padding: 15px;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+
+div.bodyContentSidebar ul {
+    list-style: none;
+    font-weight: 600;
+    font-size: large;
+}
+div.bodyContentMain{
+    width: 70%;
+}
+div.bodyContentSidebar ul li {
+    margin-bottom: 15px;
+}
+div.bodyContentWrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+}
+div.bodyContentSidebar{
+    width: 30%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+
+.bodyContentMain .Main__box .box__img1{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size:cover;
+    border-radius: 25px;
+    box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+    background-image: url(https://i.artfile.ru/2000x1252_937195_[www.ArtFile.ru].jpg);
+    transition: 0.5s ease-in-out;
+    opacity: 0.7;
+}
+.bodyContentMain .Main__box .box__img2{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size:cover;
+    opacity: 0.7;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+-moz-box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+    background-image: url(https://phonoteka.org/uploads/posts/2021-10/1633098075_12-phonoteka-org-p-van-pis-fon-dlya-rabochego-stola-krasivo-13.png );
+    transition: 0.5s ease-in-out
+}
+.bodyContentMain .Main__box .box__img3{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size:cover;
+    opacity: 0.7;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+-moz-box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+    background-image: url(https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/1426297/YkVIXohakgRPITZn3iLUA.jpg);
+    transition: 0.5s ease-in-out
+}
+.bodyContentMain .Main__box .box__img4{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    opacity: 0.7;
+    background-size:cover;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+-moz-box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+    background-image: url(https://www.yogomi.com/wp-content/uploads/2020/09/Jujutsu-Kaisen.jpg);
+    transition: 0.5s ease-in-out
+}
+.bodyContentMain .Main__box .box__img5{
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-position: center;
+    background-size:cover;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+-moz-box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+box-shadow: 0px 18px 39px -5px rgba(34, 60, 80, 0.05);
+    background-image: url(https://funart.pro/uploads/posts/2020-01/1579539596_5-p-kod-gias-vosstavshii-lelush-probuzhdenie-9.jpg);
+    transition: 0.5s ease-in-out;
+}
+.bodyContentMain .Main__box .box__img5:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.bodyContentMain .Main__box .box__img4:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.bodyContentMain .Main__box .box__img3:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.bodyContentMain .Main__box .box__img2:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.bodyContentMain .Main__box .box__img1:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.Main__box {
+    display: flex;
+    margin-top: 35px;
+}
+.Main__box:first-child{
+    margin-top: 0px;
+}
+
+.Main__box .box__info {
+    width: 600px;
+    margin-left: 20px;
+}
+
+.box__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box__info span{
+    opacity: 0.6;
+    font-weight: 800;
+}
+
+.box__info span:hover::after {
+    content: '©';
+}
+@media (max-width:850px) {
+    div.wrapper{
+        width: 100%;
+    }
+    .bodyContentWrapper{
+        display: flex;
+    }
+    .bodyContentSidebar ul{
+        display: flex;
+    }
+
+    ul.header__list{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
